@@ -1,0 +1,30 @@
+.quote-box
+{
+    width: 80vmin;
+    height: 35vmin;
+    border-radius: 1vmin;
+    box-shadow: .1vmin .1vmin 2vmin .2vmin rgba(80,80,80,.7);
+    background-color: rgba(49, 57, 105, 0.767);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25rem;
+    margin-top: 4rem;
+    padding-top: 1rem;
+
+}
+.quote-box .quote-text
+{
+    height: 80%;
+    padding: 2.2vmin;
+    font-size: 3.5vmin;
+   
+    
+}
+.quote-box .quote-author
+{
+    height:20%;
+    font-size: 3vmin;
+    padding: 1.5vmin;
+    
+}

@@ -1,0 +1,25 @@
+.buttonQ{
+    text-align: center;
+    padding-top: 2rem;
+}
+.insideButton{
+    padding: auto;
+    color: white;
+    background-color: rgb(61, 81, 172);
+    height: 4rem;
+    width: 6rem;
+    border: 0;
+    box-shadow: .2vmin .2vmin .5vmin blue;
+    border-radius: .75rem;
+    letter-spacing: .1vmin;
+    font-family: monospace;
+    font-size: 2.3vmin;
+    transition: all .3s;
+    cursor: pointer;
+}
+.insideButton:hover
+{
+    transform: scale(1.05,1.05);
+    opacity: .8;
+
+}
